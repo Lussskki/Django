@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Caches
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Log files
+*.log
+
+# Django local settings
+local_settings.py
+
+# Media files (if not using dedicated storage)
+media/
+
+# Static files (if not using dedicated storage)
+staticfiles/
+
+# Configuration files
+*.cfg
+
+# Ignore migration files (if you manage them separately)
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore secrets file if you have one (e.g., secrets.json)
+secrets.json
+
+# Ignore any files or directories specific to your deployment setup
+# Add more rules as needed based on your project structure
